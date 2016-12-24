@@ -1,0 +1,16 @@
+.footer-menu-title {
+	font-size: 1rem;
+}
+
+.footer-menu-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer-menu-bottom-link:not(:last-child):after{
+	//The most important thing for:before and :after
+	content:"|";
+
+	//this is not as important as the one above
+	margin:0 0.5rem;
+}

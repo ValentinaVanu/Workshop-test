@@ -1,0 +1,13 @@
+extends ../features/index
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+  - currentPage = '/features'
+  include ../_modules/header
+  include ../_modules/top-menu
+
+  //-content
+  include ../_modules/footer
